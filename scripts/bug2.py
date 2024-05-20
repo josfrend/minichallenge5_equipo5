@@ -125,16 +125,16 @@ class Bug2Node():
         vel_msg = Twist()
         print(min_dist)
         if abs(0.15 - min_dist) > 0.05 and abs(orientation_from_wall) < 0.20:
-            vel_msg.linear.x = 0.1
-            vel_msg.angular.z = (0.3 * (0.15-min_dist))
+            vel_msg.linear.x = 0.05
+            vel_msg.angular.z = (0.5 * (0.15-min_dist))
             print("off distance")
         elif abs(orientation_from_wall) > 0.15:
-            vel_msg.linear.x = 0.0
-            vel_msg.angular.z = 1.0 * orientation_from_wall + (0.3 * (0.15-min_dist))
+            vel_msg.linear.x = 0.05
+            vel_msg.angular.z = (1.0 * orientation_from_wall + (0.3 * (0.15-min_dist))) 
             print("off orientation")
         else:
             vel_msg.linear.x = 0.2 * min_dist
-            vel_msg.angular.z = 0.9 * orientation_from_wall + (0.3 * (0.15-min_dist))
+            vel_msg.angular.z = (0.9 * orientation_from_wall + (0.3 * (0.15-min_dist)))
             print("good")
         self.cmd_vel_pub.publish(vel_msg)
 
