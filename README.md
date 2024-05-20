@@ -1,6 +1,6 @@
 # minichallenge5_equipo5
 
-##Bug 0 Algorithm 
+## Bug 0 Algorithm 
 
 **Flow Diagram**
 
