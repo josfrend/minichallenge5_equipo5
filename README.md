@@ -1,13 +1,11 @@
-# minichallenge5_equipo5
+# Bug 0 Algorithm 
 
-## Bug 0 Algorithm 
+## Flow Diagram
 
-**Flow Diagram**
-
-**Code**
+## Code
 
 The code can be found inside the scripts folder.
 
-**Demonstration Video**
+## Demonstration Video
 
 [![](https://markdown-videos-api.jorgenkh.no/youtube/38aKj86BITU )](https://youtu.be/38aKj86BITU )
