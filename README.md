@@ -11,6 +11,8 @@
 # Bug 2 Algorithm 
 
 ## Flow Diagram
+![Flowcharts algorithms - Page 1](https://github.com/josfrend/minichallenge5_equipo5/assets/162659777/0e961ea4-dded-4397-8f56-ce2f1b477cf5)
+
 
 
 ## Demonstration Video
